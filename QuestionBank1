@@ -81,7 +81,17 @@
     ans:Views
 32.Does Viewstart override all Views layout/template under "Views" folder in MVC ?
     ans:Yes
+33.What is the name of default Viewstart Page in ASP.Net MVC ?
+    ans:_ViewStart.cshtml
+34.Can we use third party View Engine using ASP.Net MVC Engine ?
+    ans:Yes, below are the top five alternative ASP.Net MVC View Engines.
 
+         Spark (Castle MonoRail framework projects), Open Sourced, it is popular as MVCContrib library.
+         NHaml works like inline page templating.
+         NDjango uses F# Language.
+         Hasic uses VB.Net, XML.
+         Bellevue for ASP.NEt view, It respects HTML class first.
+35.What is scaffolding using ASP.Net MVC Engine? 
 
 
 
