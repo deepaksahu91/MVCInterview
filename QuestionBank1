@@ -86,19 +86,63 @@
 34.Can we use third party View Engine using ASP.Net MVC Engine ?
     ans:Yes, below are the top five alternative ASP.Net MVC View Engines.
 
-         Spark (Castle MonoRail framework projects), Open Sourced, it is popular as MVCContrib library.
-         NHaml works like inline page templating.
-         NDjango uses F# Language.
-         Hasic uses VB.Net, XML.
-         Bellevue for ASP.NEt view, It respects HTML class first.
+         Spark: (Castle MonoRail framework projects), Open Sourced, it is popular as MVCContrib library.
+         NHaml:works like inline page templating.
+         NDjango: uses F# Language.
+         Hasic: uses VB.Net, XML.
+         Bellevue: for ASP.NEt view, It respects HTML class first.
 35.What is scaffolding using ASP.Net MVC Engine? 
-
-
-
-
-
-
-
+  ans:Scaffolding helps us to write CRUD operations blend using Entity Framework, It helps developer to write down simply
+  even yet complex business logic.
+36.What is life cycle in ASP.Net MVC Engine?
+  ans:Step 1: Fill Route (Global.asax file will hit first).
+      Step 2: Fetch Route: It will gether information about controller and action to invoke.
+      Step 3: Request context
+      Step 4:  Controller instance: it calls Controller class and method.
+      Step 5: Executing Action: It determines which action to be executed 
+      Step 6: Result (View): Now Action method executed and returns back response to view in differentiating forms like Json, 
+        View Result,File Result etc.
+37.Which is the way to render Partial View using ASP.Net MVC Razor Engine?
+   ans: @Html.Partial("_PartialHeader")
+38.Which  Namespace is used to "Display" in Data Annotation using MVC ?
+   ans:System.ComponentModel
+39.Which  Namespaces are required to Data Annotation using MVC ?
+   ans:A) System.ComponentModel
+       B) System.ComponentModel.DataAnnotations
+40.Are both TempData/ViewData require typecasting in MVC?
+   ans:Both (TempData/ViewData) requires type casting to avoid null exception.
+41.Is ViewBag slower than ViewData in MVC?
+   ans: Yes
+42.Is ViewData faster than ViewBag in MVC?
+   ans:Yes
+43.Are both TempData/ViewData property of Controller base class in MVC?
+   ans:Yes
+44.Does TempData used to pass data from one page to another page in MVC?   
+   ans:Yes
+45.Can ASP.Net Web API specialize to XML or JSON ?   
+   ans:Yes
+46.Does Web API (ASP.Net) supports to non SOAP based like XML or JSON ?
+   ans:Yes
+47.Does Web API (ASP.Net) supports to both version mobile apps and others ?
+   ans:Yes
+48.Can ASP.Net Web API, it works HTTP standard verbs like POST, GET, PUT, DELETE (CRUD Operations) ?
+   ans:Yes
+49.Can ASP.Net Web API ability to both self hosting (outside of IIS) and IIS ?
+  ans:yes
+50.Can ASP.Net Web API has ability to transport non HTTP protocols like TCP, UDP, Named Pipes etc ?
+  ans:No
+51.What is AuthConfig.cs in ASP.Net MVC ?
+  ans:AuthConfig.cs is used to configure security settings including sites oAuth Login.
+52.What is BundleConfig.cs in ASP.Net MVC ?
+  ans:BundleConfig.cs in MVC is used to register bundles used by the bundling and minification, serveral bundles are 
+  added by default like jQuery, jQueryUI, jQuery  validation, Modernizr, default CSS references.
+53.What is FilterConfig.cs in ASP.Net MVC ?
+  ans:FilterConfig.cs is used to register global MVC filters, HandleErrorAttribute is registered by
+  default filter. We can also register other filters.
+54.What is  RouteConfig.cs in ASP.Net MVC?
+   ans:RouteConfig.cs is used to register MVC config statements, route config.
+55.What is the difference between HtmlTextbox and HtmlTextboxFor using ASP.Net MVC Razor Engine?
+   ans: @Html.TextBox is not strongly typed, @Html.TextBoxFor is strongly typed that is why should be use @Html.TextBoxFor in MVC Razor Engine.
 
 
 
