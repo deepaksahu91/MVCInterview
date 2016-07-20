@@ -1,0 +1,99 @@
+1. Which is the best approach to assign a session in MVC?
+  ans:Current.Session["LoginID"] =7;
+2.RedirectToActionPermanent() Method for which Status code represents?
+  ans: 301
+3.RedirectToAction() Method for which Status code represents?
+   ans:302
+4.What is ActionResult() ?
+   ans: It is an abstract Class
+5.What is ViewResult() ?
+   ans:It is a Concrete Class
+6.return View() works like in ASP.Net MVC C# as
+   ans: Server.Transfer()
+7.RedirectToAction() works like in ASP.Net MVC C# as
+   ans:Response.Redirect()
+8.In which format data can be return from XML into table ?
+   ans:DataSet
+9.Can we use view state in MVC ?
+   ans:No
+10.What Request Processing technique follows ASP.Net ?
+   ans:Pipeline
+11.What is DRY principle in ASP.Net ?
+  ans:Don't repeat yourself.
+12.What is default authentication in Internet Information Services (IIS)?
+   ans:Anonymous
+13. What is the extension of MVC view when using C#?
+   ans:cshtml
+14.What is the extension of MVC view when using vb.net?
+   ans:vbhtml
+15.How can you comment using Razor Syntax?
+   ans:@* Comment me *@
+16.Which Namespace is used for Razor View Engine ?
+   ans: System.Web.Razor
+17.Which Namespace is used for ASPX View Engine ?
+   ans:System.Web.Mvc.WebFormViewEngine
+18.The Razor View Engine uses to render server side content.
+   ans: @
+19.The ASPX View Engine uses to render server side content.
+   ans: <%= %>
+20.Which is more faster between ASPX View Engine and Razor View Engine.
+   ans:ASPX View Engine
+21.Does Razor Engine supports for TDD ?
+   ans:Yes
+22.Does ASPX View Engine supports for TDD ?
+   ans:No
+22.How to Print value from Controller to View in MVC ?
+   ans:ViewBag.ECMDetail = "my message"; and in view @ViewBag.ECMDetail
+23. If you have already implemented different filters then what will be order of these filters?
+    ans:1) Authorization filters
+        2) Action filters
+        3) Response filters
+        4) Exception filters
+24.Can you specify different types of filters in ASP.Net MVC application?
+    ans:1) Authorization filters (IAuthorizationFilter)
+        2) Action filters   (IActionFilter)
+        3) Result filters (IResultFilter)
+        4) Exception filters (IExceptionFilter)
+25.What are the advantages of using ASP.NET routing?        
+    ans:Clean URLs is originally brought from Ruby on Rails. http://www.technologycrowds.com?abc=10 , 
+              now clean URL in MVC ASP.Net will be work like http://www.technologycrowds.com/abc/10
+26.What is the significance of ASP.NET routing?
+    ans:Default Route Name:
+"{controller}/{action}/{id}", // URL with parameters
+     By default routing is defined under Global.asax file. MVC ASP.Net uses routing to map between
+     incoming browser request to controller action methods.
+27.Can be it possible to share single view across multiple controllers in MVC?
+    ans:We can put the view under shared folder, it will automatically view the across the multiple controllers.
+28.Are MVC and Web API merged into one in MVC 6?
+    ans:Yes
+29.What is the difference between MVC (Model View Controller) and MVP (Model View Presenter)?
+    ans:MVC controller handles all the requests, MVP handles as the handler and also handles the all requests as well.
+30.How does work Viewstart in MVC (ASP.Net)?
+   ans:A) Viestart is used to layout of the application.
+       B) Viewstart is used like Masterpage in traditional forms (ASP.Net pages).
+       C) Viewstart render first in the views.
+   View Start Code Snippet:
+   @{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+31.Viewstart comes under which folder name ?
+    ans:Views
+32.Does Viewstart override all Views layout/template under "Views" folder in MVC ?
+    ans:Yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
