@@ -142,12 +142,65 @@
 54.What is  RouteConfig.cs in ASP.Net MVC?
    ans:RouteConfig.cs is used to register MVC config statements, route config.
 55.What is the difference between HtmlTextbox and HtmlTextboxFor using ASP.Net MVC Razor Engine?
-   ans: @Html.TextBox is not strongly typed, @Html.TextBoxFor is strongly typed that is why should be use @Html.TextBoxFor in MVC Razor Engine.
-
-
-
-
-
+   ans: @Html.TextBox is not strongly typed, @Html.TextBoxFor is strongly typed that is why should be use @Html.TextBoxFor
+      in MVC Razor Engine.  (syntax:@Html.Partial("_viewname"); )
+56.What is the benefits of Html.RenderPartial using ASP.Net MVC Razor Engine?
+   ans:@Html.RenderPartial Returns nothing (void), it is faster than @Html.Partial, moreover requires not to create action.
+     syntax:@Html.Partial("_viewname");
+            @Html.RenderPartial("_viewname");
+57.How to check Request coming from which controller using MVC ASP.Net?
+   ans:var _controller = HttpContext.Current.Request.RequestContext.RouteData.Values["Controller"].ToString();
+58.For which ModelState.IsValid Validate ?
+   ans:It checks for valid Model State using DataAnnotations.
+59.Which Name space is used to create chart using ASP.Net MVC?
+  ans:using System.Web.Helpers;
+60.How can we provide Height and Width to MVC Charts ?
+  ans:new Chart(width: 600, height: 400)
+61.How can we set theme to MVC Charts?
+  ans:new Chart(width: 600, height: 400, theme: ChartTheme.Vanilla3D)
+62.How can we give Title to MVC Charts?
+  ans:AddTitle("My First Chart")
+63.How can we add Series to MVC Charts?
+  ans:.AddSeries(chartType: "Bar", xValue: xValue, yValues: yValue)
+64.Which name space using can send email in ASP.Net MVC?
+  ans:using System.Net.Mail;(syntax:MailMessage mail = new MailMessage();)
+65.f Razor View Engine need to add JQuery function and contain @ special character then how we can write it in Razor View? 
+  ans:Replace @ to @@ (double) 
+66.How to set Default Value to Hidden Input Box using ASP.Net MVC? 
+  ans:@Html.HiddenFor(m => m.Name, new { Value = "Jack"}) 
+67.How to check all errors of Model using ASP.Net MVC?
+  ans:var errors = ModelState.Values.SelectMany(v => v.Errors);
+68.AuthConfig.cs file is under in which App folder ? 
+  ans: App_Start
+69.BundleConfig.cs file is under in which App folder ? 
+  ans: App_Start
+70.FilterConfig.cs file is under in which App folder ? 
+  ans:App_Start 
+71.RouteConfig.cs file is under in which App folder ?
+  ans:App_Start
+72.WebApiConfig.cs file is under in which App folder ?
+  ans:App_Start 
+73.Can you list the main types of result using ASP.Net MVC?
+  ans:There are total 10 main types of result, ActionResult is main type and others are sub types of results as listed below:
+System.Web.Mvc.ActionResult 
+System.Web.Mvc.ContentResult 
+System.Web.Mvc.EmptyResult 
+System.Web.Mvc.FileResult 
+System.Web.Mvc.HttpStatusCodeResult 
+System.Web.Mvc.JavaScriptResult 
+System.Web.Mvc.JsonResult 
+System.Web.Mvc.RedirectResult 
+System.Web.Mvc.RedirectToRouteResult 
+System.Web.Mvc.ViewResultBase
+74.Which filter will be execute at first using ASP.Net MVC?
+   ans:Authorization filters
+75.Which filter will be execute at last using ASP.Net MVC?
+   ans: Exception filters
+76.What is the main purpose of HTML Helper of ActionLink in ASP.Net MVC?
+   ans:It links to specific Action 
+78.How to format Date in Razor View using ASP.Net MVC? 
+   ans:@string.Format("{0:dd/MM/yyyy}", Convert.ToDateTime(Html.DisplayFor(modelitem => item.Start_Date).ToString())) 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
