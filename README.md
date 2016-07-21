@@ -1,28 +1,25 @@
                                           Deepak Sahu                                                                                                                              E-mail: deepak91msn@gmail.com             Mobile: +91-9739270958
 PROFESSIONAL SUMMARY
-	2.4 Year of Industry Work Experience in Development of  MS.Net Application using C#.Net 
-    (Healthcare Domain)  (Inventory   Module).
-	Functional Knowledge and Business Domain Experience in Inventory Module ,Healthcare
+	3.1 Year of Industry Work Experience in Development of  MS.Net Application .
 	Understanding the requirements of client.
 	Preparing the project design document and requirement document.
 	Coding and unit testing of forms and modules
 	Deploying software at client side and solving their queries or problems
 	Well versed in user interface design ,coding and writing stored procedure
 WORK EXPERIENCE
-Current Employer	: Atlas Systems, Bangalore (April 2013 to  till date)
+Current Employer	: Atlas Systems, Bangalore (May 2013 to  till date)
 Position		: Software Engineer
 ACADEMIC QUALIFICATIONS
-   Bachelor of Technology      :Institute of Advanced Computer & Research , Odisha
+   B.Tech :BijuPatnaik University Of Technology, Odisha
                                   Branch       : Computer Science
           Percentage       : 65%
 OTHER PROFESSIONAL SKILLS
-Programming Languages:  C, C++, C#.Net.
-Web Technologies: Asp.Net, Ajax, Ado.Net, HTML, JavaScript, jquery.	
-Distributed Technologies: Web Service, WCF.
+Programming Languages: C#.Net., C, C++, 
+Skills : Asp.Net,Asp.Net MVC4 ,Web Api, Ajax, HTML, JavaScript, jquery.
 Report Tool: Crystal Report, Rdlc Report.
 Operating Systems: Windows Family.
-Database:  SQL Server 2008.
-Programming Tools: Visual Studio 2008/10, SQL Server 2008, SVN, Nunit
+Database:  SQL Server 2008R2.
+Programming Tools: Visual Studio 2010 or Later Version, SQL Server 2008, SVN, Nunit
  PROJECT
 *Project Title : Human Resource Information System(HRIS) 
 * Languages : C#.NET
