@@ -1,4 +1,4 @@
-                                          Deepak Sahu                                                                                                                              E-mail: deepak91msn@gmail.com             Mobile: +91-9739270958
+                                          Deepak Sahu                                                                                                                              E-mail: deepaksahu122@gmail.com             Mobile: +91-9739270958
 PROFESSIONAL SUMMARY
 	3.1 Year of Industry Work Experience in Development of  MS.Net Application .
 	Understanding the requirements of client.
@@ -61,7 +61,6 @@ Ambitious and energetic composed under pressure and get along very well with peo
 
                                  Current Location  :  Bangalore, India  
                                Date Of Birth           : 5th June 1991
-                               Present Address    :#214/A First Floor, Old Madiwala,  BTM 1st  stage ,Near                                    
-                                                                     Someswara Temple, Bangalor   560068
+                               Present Address    :
 
 
