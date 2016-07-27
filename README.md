@@ -1,6 +1,6 @@
                                           Deepak Sahu                                                                                                                              E-mail: deepaksahu122@gmail.com             Mobile: +91-9739270958
 PROFESSIONAL SUMMARY
-	3.1 Year of Industry Work Experience in Development of  MS.Net Application .
+	3+ years experience in Development, Implementation of applications indifferent areas using ASP. Net, C#. Net, ASP,Crystal Reports, MS SQL server.
 	Understanding the requirements of client.
 	Preparing the project design document and requirement document.
 	Coding and unit testing of forms and modules
@@ -60,7 +60,7 @@ PERSONAL PROFILE
 Ambitious and energetic composed under pressure and get along very well with people at all levels.. Very organized with professional approach.
 
                                  Current Location  :  Bangalore, India  
-                               Date Of Birth           : 5th June 1991
-                               Present Address    :
+                               Date Of Birth       : 5th June 1991
+                               Present Address     :
 
 
