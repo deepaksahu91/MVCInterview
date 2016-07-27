@@ -1,10 +1,12 @@
                                           Deepak Sahu                                                                                                                              E-mail: deepaksahu122@gmail.com             Mobile: +91-9739270958
 PROFESSIONAL SUMMARY
 	3+ years experience in Development, Implementation of applications in different areas using ASP.Net, ASP.Net MVC,C#.Net, Crystal Reports, MS SQL server.
+Good Working Knowledge on Application Devlopment & Maintenance Life Cycle Process.
 	Understanding the requirements of client & Preparing the project design document and requirement document.
+	Well versed in user interface design ,coding and writing stored procedure.
 	Coding and unit testing of forms and modules
 	Deploying software at client side and solving their queries or problems
-	Well versed in user interface design ,coding and writing stored procedure
+	
 WORK EXPERIENCE
 Current Employer	: Atlas Systems, Bangalore (May 2013 to  till date)
 Position		: Software Engineer
