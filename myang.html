@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+</head>
+<body>
+
+<script type="text/javascript">
+
+var app = angular.module('MyApp', [])
+
+app.controller('MyController', function ($scope, $window) {
+
+$scope.chkbox = [ 
+                           {chkid: 1,Name: 'Edit',Selected: false}, 
+                          {chkid: 2,Name: 'View',Selected: false}, 
+                          { chkid: 3,Name: 'Delete',Selected: false}, 
+                            { chkid: 4,Name: 'Create',Selected: false}
+                         ];
+$scope.GetValue = function () {
+var message = "";
+for (var i = 0; i < $scope.chkbox.length; i++) {
+if ($scope.chkbox[i].Selected) {
+var chkid = $scope.chkbox[i].chkid;
+var chkname = $scope.chkbox[i].Name;
+message += "Value: " + chkid + " Text: " + chkname + "\n";
+}
+}
+$window.alert(message);
+}
+});
+</script>
+
+
+<div ng-app="MyApp" ng-controller="MyController">
+<div ng-repeat="chk in chkbox">
+<label for="chkCustomer_{{chk.chkid}}">
+<input id="chkCustomer_{{chk.chkid}}" type="checkbox" ng-model="chk.Selected" />
+{{chk.Name}}
+</label>
+</div>
+
+<input type="button" value="Get" ng-click="GetValue()" />
+</div>
+</body>
+
+</html>
+
+
+
+
+
