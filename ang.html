@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+
+<div ng-app="Myapp" ng-controller="Myctrl">
+
+Forms,,User Registration, Employee Details, User Pages, Expense Details
+
+  <form ng-submit="Display()">
+  
+    <label>User Registration:
+    <input type="checkbox" ng-model="chkbox.Value">
+   </label><br/>
+     
+    
+    <input type="submit" value="Submit" />
+  </form>
+  
+</div>
+<script>
+    var app = angular.module("Myapp",[]);
+
+    app.controller("Myctrl",function($scope) {
+	
+	     
+
+        $scope.Display = function () {
+		$scope.chkbox={Value:true};
+			alert("x");
+        }
+    });
+</script>
+
+
+</body>
+</html>
